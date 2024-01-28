@@ -1,0 +1,2 @@
+!function(){var t=document.querySelector(".header-form"),e=document.querySelector(".tasks-list");t.addEventListener("submit",(function(n){n.preventDefault();var a=t.elements.taskName.value,s=t.elements.taskText.value;(function(t){e.insertAdjacentHTML("beforeend",t)})(function(t,e){return'\n <li class="task-list-item">\n    <button class="task-list-item-btn">Удалить</button>\n   <h3>'.concat(t,"</h3>\n    <p>").concat(e,"</p>\n</li>")}(a,s)),n.currentTarget.reset()}))}();
+//# sourceMappingURL=index.2a7862c8.js.map
